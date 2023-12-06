@@ -14,19 +14,23 @@ header nav{}
 }
 
 .left{
-    width: 29%;
+    width: 28%;
 }
 
 .divider{
-    width: 2%;
-    display:flex;
+    width: 4%;
+    border-left: 5px solid grey;
+    margin-right: 5px;
+    height: 100%;
 }
 
 .right{
-    width: 69%;
+    width: 68%;
+    display: flex;
 }
 
 section{
     display: flex;
     margin-bottom: 20px;
+
 }
