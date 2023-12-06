@@ -1,0 +1,28 @@
+header{}
+
+header nav{}
+
+.subtitle{}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    width: 29%;
+}
+
+.divider{
+    width: 2%;
+    display:flex;
+}
+
+.right{
+    width: 69%;
+}
+
+section{
+    display: flex;
+    margin-bottom: 20px;
+}

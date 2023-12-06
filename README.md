@@ -1,5 +1,9 @@
 # Portfolio for Duncan Buckle
 
+## Description
+
+This is Duncan's portfolio project. This page will provide information about Duncan, how to contact him and links to some of his work.
+
 ## Table of Contents (Optional)
 
 If your README is very long, add a table of contents to make it easy for users to find what they need.
@@ -12,10 +16,13 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
+N/A
 
 ## Usage 
+
+Links are available on the page to navigate to various sections.
+Within each section there may be further links to, for example, navigate away to the selected application or start an email to Duncan.
+
 
 Provide instructions and examples for use. Include screenshots as needed. 
 
@@ -37,7 +44,7 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+MIT License as per repository.
 
 
 ---
