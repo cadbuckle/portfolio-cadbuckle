@@ -1,36 +1,105 @@
-header{
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
     width: 100%
 }
 
-header nav{}
+body{
+    width: 100%;
+}
 
+header nav {}
 .subtitle{
-    width: 100%
+    display:flex;
+}
+.subtitle h3 {
+    color: #FF6200;
+    background-color: black;
+    z-index: 999;
+}
+.subtitle img{
+    width: 100%;
+    margin: 0;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
 }
 
-.left{
+.left {
     width: 28%;
 }
 
-.divider{
+.divider {
     width: 4%;
-    border-left: 5px solid grey;
+    border-left: 5px solid orange;
     margin-right: 5px;
     height: 100%;
 }
 
-.right{
-    width: 68%;
+.right {
+    width: 68%; 
     display: flex;
 }
 
-section{
+img{
+    display: flex;
+    width: 20%;
+    height: auto;
+    margin: 1%;
+}
+
+section {
     display: flex;
     margin-bottom: 20px;
 
+}
+#aboutMe{
+    display:inline;
+}
+
+.workGrid {
+    width: 68%;
+    margin: 0px 1%;
+    display: grid;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "mainApp mainApp"
+        "mainApp mainApp"
+        "app2 app3"
+        "app4r app5"
+    ;
+}
+
+.workGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+}
+
+#mainApp {
+    grid-area: mainApp;
+    /*    background-image: url("../images/mainApp.png"); */
+    background-image: url(../images/mainApp.png);
+}
+
+.heading {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    border-bottom: 5px solid #FF6200;
+}
+
+p{
+    margin: 5px;
 }

@@ -1,70 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Duncan's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
-  </head>
-  <body>
-    <!-- Header section that also contains navigation to About Me, Work and Contact -->
-    <header>
-      aksdhflkahsdf
-      <nav>
-        <a>About Me</a>
-        <a>Work</a>
-        <a>Contact Me</a>
-      </nav>
-    </header>
-    <!-- Image with a suitable subtitle-->
-    <div class="subtitle">
-      <h3>Subtitle</h3>
-    </div>
 
-    <!-- Here the page splits with a left hand column containing Titles "About Me", "Work" and "Contact"-->
-    <!-- The right hand column contains the associated content -->
-    <div class="content">
-      <!-- Each content is comprised of a left, divider and a right with a margin underneath -->
-      <!-- About me -->
-      <section>
-        <div class="left">
-          <h1>About Me</h1>
-        </div>
-        <div class="right">
-          <!-- About Me -->
-          <div class="divider"></div>
-          <p> this is me !</p>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duncan's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
+</head>
 
-      <!-- Examples of work -->
-      <section>
-        <div class="left">
-          <h1>Work</h1>
-        </div>
-        <div class="right">
-          <!-- Work -->
-          <div class="divider"></div>
-          <!-- Here we need 1 large block for my main application -->
-          <!-- Subsequent apps will be displayed up to 2 on each row -->
-          <p> main app<br>
-            app app<br>
-            app app<br>
-            app</p>
-        </div>
-      </section>
+<body>
+  <!-- Header section that also contains navigation to About Me, Work and Contact -->
+  <header>
+    aksdhflkahsdf
+    <nav>
+      <a>About Me</a>
+      <a>Work</a>
+      <a>Contact Me</a>
+    </nav>
+  </header>
+  <!-- Image with a suitable subtitle-->
+  <div class="subtitle">
+    <img src="./assets/images/horsedogcar.png" alt="">
+    <h3>Coder / Business Analyst</h3>
+  </div>
 
-      <!-- Contact Details -->
-      <section>
-        <div class="left">
-          <h1>Contact</h1>
+  <!-- Here the page splits with a left hand column containing Titles "About Me", "Work" and "Contact"-->
+  <!-- The right hand column contains the associated content -->
+  <div class="content">
+    <!-- Each content is comprised of a left, divider and a right with a margin underneath -->
+    <!-- About me -->
+    <section>
+      <div class="left">
+        <h1>About Me</h1>
+      </div>
+      <div class="right">
+        <!-- About Me -->
+        <div class="divider"></div>
+        <div id="aboutMe">
+			<p>I'm Duncan and a northerner by birth.</p><p>I've always worked in IT, starting on the EPOS helpdesk for an electrical retailer. I jumped into development and started coding in dBaseII (for a helpdesk call logging system), then Today 4GL for a service department system, and then Progress 4GL for a POS system</p>
+			<p>My career took a strange turn when I became an implementation consultant for a software company. This involved not only coding the product, but performing requirements gathering, business process analysis, implementation and training.</p>
+			<p>So I'm a front-end web developer and technical business analyst with a life-long curiosity as to why things work and why they don’t. Solutions to problems aren’t always obvious, and I always try to think outside of the box. Strengths in teamwork, investigating issues, requirements gathering and stakeholder management. Accessibility is a must.</p>
+		</div>
+      </div>
+    </section>
+
+    <!-- Examples of work -->
+    <section>
+      <div class="left">
+        <h1>Work</h1>
+      </div>
+      <div class="right">
+        <!-- Work -->
+        <div class="divider"></div>
+        <!-- Here we need 1 large block for my main application -->
+        <!-- Subsequent apps will be displayed up to 2 on each row -->
+        <div class="workGrid">
+          <div id="mainApp" class="workGridArea">
+            <div class="heading">Showcase App</div>
+          </div>
+          <div id="app2" class="workGridArea">
+            <div class="heading">App #2</div>
+          </div>
+          <div id="app3" class="workGridArea">
+            <div class="heading">App #3</div>
+          </div>
+          <div id="app4" class="workGridArea">
+            <div class="heading">App #4</div>
+          </div>
+          <div id="app5" class="workGridArea">
+            <div class="heading">App #5</div>
+          </div>
         </div>
-        <div class="right">
-          <!-- Contact -->
-          <div class="divider"></div>
-          <p>Email:<br>Phone:<br>LinkedIn: </p>
-        </div>
-      </section>
-    </div>
-  </body>
+      </div>
+    </section>
+
+    <!-- Contact Details -->
+    <section>
+      <div class="left">
+        <h1>Contact</h1>
+      </div>
+      <div class="right">
+        <!-- Contact -->
+        <div class="divider"></div>
+        <p>Email:<br>Phone:<br>LinkedIn: </p>
+      </div>
+    </section>
+  </div>
+</body>
+
 </html>
