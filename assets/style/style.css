@@ -2,26 +2,46 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    width: 100%
-}
-
-body{
+body {
     width: 100%;
 }
 
-header nav {}
-.subtitle{
-    display:flex;
+/* Header / Nav styling */
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
 }
+
+header h1 {
+    width: 25%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .subtitle h3 {
     color: #FF6200;
-    background-color: black;
-    z-index: 999;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
-.subtitle img{
+
+.subtitle img {
     width: 100%;
-    margin: 0;
+    max-height: 400px;
+    margin-bottom: 10px;
 }
 
 .content {
@@ -41,11 +61,11 @@ header nav {}
 }
 
 .right {
-    width: 68%; 
+    width: 68%;
     display: flex;
 }
 
-img{
+img {
     display: flex;
     width: 20%;
     height: auto;
@@ -57,10 +77,12 @@ section {
     margin-bottom: 20px;
 
 }
-#aboutMe{
-    display:inline;
+
+#aboutMe {
+    display: inline;
 }
 
+/* format/style work items */
 .workGrid {
     width: 68%;
     margin: 0px 1%;
@@ -87,12 +109,21 @@ section {
 
 #mainApp {
     grid-area: mainApp;
-    /*    background-image: url("../images/mainApp.png"); */
-    background-image: url(../images/mainApp.png);
+    background-image: url(../images/horiseon-home.png);
+}
+
+#app2 {
+    background-image: url(../images/first-web-page.png);
+}
+
+#app3,
+#app4,
+#app5 {
+    background-image: url(../images/coming-soon.png);
 }
 
 .heading {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 45%);
     padding: 15px;
     height: 25px;
     color: white;
@@ -100,6 +131,6 @@ section {
     border-bottom: 5px solid #FF6200;
 }
 
-p{
+p {
     margin: 5px;
 }

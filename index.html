@@ -11,17 +11,18 @@
 <body>
   <!-- Header section that also contains navigation to About Me, Work and Contact -->
   <header>
-    aksdhflkahsdf
+    <h1>Duncan Buckle</h1>
     <nav>
-      <a>About Me</a>
-      <a>Work</a>
-      <a>Contact Me</a>
+      <a href="#aboutme">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
     </nav>
   </header>
   <!-- Image with a suitable subtitle-->
   <div class="subtitle">
-    <img src="./assets/images/horsedogcar.png" alt="">
-    <h3>Coder / Business Analyst</h3>
+    <img src="./assets/images/horsedogcar.png" alt="Image of horse, car and dog">
+    <h3 class="subtitle">Front-End Web Developer / Business Analyst</h3>
+    
   </div>
 
   <!-- Here the page splits with a left hand column containing Titles "About Me", "Work" and "Contact"-->
@@ -29,7 +30,7 @@
   <div class="content">
     <!-- Each content is comprised of a left, divider and a right with a margin underneath -->
     <!-- About me -->
-    <section>
+    <section id="aboutme">
       <div class="left">
         <h1>About Me</h1>
       </div>
@@ -37,16 +38,17 @@
         <!-- About Me -->
         <div class="divider"></div>
         <div id="aboutMe">
-			<p>I'm Duncan and a northerner by birth.</p><p>I've always worked in IT, starting on the EPOS helpdesk for an electrical retailer. I jumped into development and started coding in dBaseII (for a helpdesk call logging system), then Today 4GL for a service department system, and then Progress 4GL for a POS system</p>
-			<p>My career took a strange turn when I became an implementation consultant for a software company. This involved not only coding the product, but performing requirements gathering, business process analysis, implementation and training.</p>
-			<p>So I'm a front-end web developer and technical business analyst with a life-long curiosity as to why things work and why they don’t. Solutions to problems aren’t always obvious, and I always try to think outside of the box. Strengths in teamwork, investigating issues, requirements gathering and stakeholder management. Accessibility is a must.</p>
-		</div>
+          <p>I'm Duncan and a northerner by birth.</p>
+          <p>I've always worked in IT, starting on the EPOS helpdesk for an electrical retailer. I jumped into development and started coding in dBaseII (for a helpdesk call logging system), then Today 4GL for a service department system, and then Progress 4GL for a POS system</p>
+          <p>My career took a strange turn when I became an implementation consultant for a software company. This involved not only coding the product, but performing requirements gathering, business process analysis, implementation and training. From this point forwards I was then a business analyst.</p>
+          <p>Following some retraining, I'm now a front-end web developer and technical business analyst with a life-long curiosity as to why things work and why they don’t. Solutions to problems aren’t always obvious, and I always try to think outside of the box. Strengths in teamwork, investigating issues, requirements gathering and stakeholder management. Accessibility is a must.</p>
+        </div>
       </div>
     </section>
 
     <!-- Examples of work -->
     <section>
-      <div class="left">
+      <div class="left" id="work">
         <h1>Work</h1>
       </div>
       <div class="right">
@@ -55,27 +57,42 @@
         <!-- Here we need 1 large block for my main application -->
         <!-- Subsequent apps will be displayed up to 2 on each row -->
         <div class="workGrid">
-          <div id="mainApp" class="workGridArea">
-            <div class="heading">Showcase App</div>
-          </div>
-          <div id="app2" class="workGridArea">
-            <div class="heading">App #2</div>
-          </div>
-          <div id="app3" class="workGridArea">
-            <div class="heading">App #3</div>
-          </div>
-          <div id="app4" class="workGridArea">
-            <div class="heading">App #4</div>
-          </div>
-          <div id="app5" class="workGridArea">
-            <div class="heading">App #5</div>
-          </div>
+          <!-- app 1 / mainapp -->
+          <a href="https://cadbuckle.github.io/horiseon-module-01/" target="_blank" class="workGridArea" id="mainApp">
+            <div>
+              <div class="heading">Refactored Website for HTML and CSS</div>
+            </div>
+          </a>
+          <!-- app 2 -->
+          <a href="https://cadbuckle.github.io/prework-study-guide/" target="_blank" id="app2" class="workGridArea">
+            <div>
+              <div class="heading">First web page</div>
+            </div>
+          </a>
+          <!-- app 3 -->
+          <a href="" id="app3" class="workGridArea">
+            <div>
+              <div class="heading">Coming soon ...</div>
+            </div>
+          </a>
+          <!-- app 4 -->
+          <a href="" id="app4" class="workGridArea">
+            <div>
+              <div class="heading">Coming soon ...</div>
+            </div>
+          </a>
+          <!-- app 5 -->
+          <a href="" id="app5" class="workGridArea">
+            <div>
+              <div class="heading">Coming soon ...</div>
+            </div>
+          </a>
         </div>
       </div>
     </section>
 
     <!-- Contact Details -->
-    <section>
+    <section id="contact">
       <div class="left">
         <h1>Contact</h1>
       </div>
