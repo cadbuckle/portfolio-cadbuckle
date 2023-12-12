@@ -51,8 +51,13 @@ nav a {
 
 .left {
     width: 28%;
+    display:flex;
 }
 
+.left h1{
+    width: 100%;
+    text-align: center;
+}
 .divider {
     width: 4%;
     border-left: 5px solid orange;
@@ -79,12 +84,21 @@ section {
 }
 
 #aboutMe {
-    display: inline;
+    float:left ;
+
 }
+
+#aboutMe img{
+    float: left;
+    margin: 0;
+    margin-right: 1%;
+}
+
+
 
 /* format/style work items */
 .workGrid {
-    width: 68%;
+    width: 100%;
     margin: 0px 1%;
     display: grid;
     grid-template-rows: 150px 150px 150px 150px;
@@ -133,4 +147,11 @@ section {
 
 p {
     margin: 5px;
+}
+
+.contactdetails{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
